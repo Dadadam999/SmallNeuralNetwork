@@ -20,5 +20,15 @@ namespace SmallNeuralNetwork
             selfref = this;
             neuralnetwork.InitCells();
         }
+
+        private void startToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Loop.Start();
+        }
+
+        private void Loop_Tick(object sender, EventArgs e)
+        {
+
+        }
     }
 }
